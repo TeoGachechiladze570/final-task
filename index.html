@@ -1,13 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>khatchapuridze</title>
+    <title>Gachechiladze Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <header class="top-header">
+      <nav class="main-nav">
+        <div class="nav-inner">
+          <div class="site-branding">
+            <a href="#home" class="brand-name">Gachechiladze</a>
+          </div>
+          <div class="nav-menu">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#contact" class="nav-item">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero-banner">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello, I'm <span>Gachechiladze</span></h1>
+          <p>
+            A passionate developer crafting modern & meaningful digital
+            experiences.
+          </p>
+          <a href="#contact" class="cta-button">Let’s Work Together</a>
+        </div>
+
+        <div class="hero-illustration">
+          <div class="floating-card">
+            <span class="emoji"
+              ><img
+                src="https://cdn1.iconfinder.com/data/icons/avatars-1-5/136/60-512.png"
+            /></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
