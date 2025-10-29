@@ -402,6 +402,74 @@ body {
   animation: slideIn 1s ease-out;
 }
 
+/* ===== CONTACT ===== */
+.contact-section {
+  padding: 6rem 2rem;
+  background: var(--background-light);
+  text-align: center;
+  animation: slideIn 1s ease-out;
+}
+
+.contact-section h2 {
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin-bottom: 3rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 10px rgba(255, 71, 87, 0.3);
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
 /* ===== FOOTER ===== */
 .footer-section {
   padding: 2rem;
